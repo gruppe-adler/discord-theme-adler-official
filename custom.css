@@ -18,6 +18,14 @@ body {
 	border-top-color: #000;
 }
 
+.tooltip.tooltip-right:after {
+	border-right-color: #000;
+}
+
+.tooltip.tooltip-left:after {
+	border-left-color: #000;
+}
+
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color:    #999 !important;
 }
