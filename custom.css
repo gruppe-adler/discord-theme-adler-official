@@ -84,6 +84,18 @@ body {
 
 /* AUTOCOMPLETE */
 
+.message-group .btn-reaction, .message-group .btn-option {
+	transform: scale(1.5);
+    margin-left: 10px;
+}
+
+.message-group .comment>div:hover .btn-option, 
+.message-group .comment>div:hover .btn-reaction, 
+.message-group .system-message>div:hover .btn-option, 
+.message-group .system-message>div:hover .btn-reaction {
+    opacity: 0.65;
+}
+
 .channel-textarea-autocomplete-inner .emoji {
     margin-right: 10px!important;
     -o-object-fit: contain;
@@ -138,6 +150,7 @@ body {
     height: 1px;
 }
 
+/*
 .channel-textarea-autocomplete div {
 	background-color: #fff;
 }
@@ -145,22 +158,39 @@ body {
 .channel-textarea-autocomplete div:hover {
 	background-color: #fff;
 }
+*/
 
 .channel-textarea-autocomplete-inner{
-border-color: #D18D1F !important;
+border-color: #c0c0c0 !important;
 }
 
 .channel-textarea-autocomplete header{
-background-color: #D18D1F !important;
+background-color: #fff !important;
 }
 
 .channel-textarea.has-results .channel-textarea-inner{
-border-color: #D18D1F !important;
+border-color: #c0c0c0 !important;
 }
 
 .highlight:hover {
     background-color: #D18D1F !important;
 }
+
+
+
+.channel-textarea-autocomplete-inner header {
+    color: #999;
+}
+
+
+.channel-textarea-autocomplete-inner header div {
+    color: #999;
+}
+
+.channel-textarea-autocomplete-inner header strong {
+    color: #666;
+}
+
 
 
 /* NAV LEFT */
