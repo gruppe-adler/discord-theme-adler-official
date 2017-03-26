@@ -204,6 +204,21 @@ border-color: #c0c0c0 !important;
 
 
 /* NAV LEFT */
+.guild-channels .channel a {
+	opacity: .4;
+}
+
+.guild-channels .channel-text:hover.channel-muted:before, .guild-channels .channel-text:hover:not(.unread):before {
+
+    border-left: none;
+}
+
+.guild-channels .channel-text:hover {
+	background: rgba(0,0,0,0.4);
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-right: 10px;
+}
 
 .guild-channels .channel-text.selected {
     /* kill old stuff*/
@@ -212,7 +227,7 @@ border-color: #c0c0c0 !important;
     
     /* add slack style highlight */
     background-color: #D18D1F;
-        border-bottom-right-radius: 20px;
+    border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
     padding-right: 10px;
 	
