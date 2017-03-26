@@ -184,7 +184,9 @@ border-color: #c0c0c0 !important;
     background-color: #D18D1F !important;
 }
 
-
+.channel-textarea-inner textarea{
+	color: #333;
+}
 
 .channel-textarea-autocomplete-inner header {
     color: #999;
@@ -210,6 +212,9 @@ border-color: #c0c0c0 !important;
     
     /* add slack style highlight */
     background-color: #D18D1F;
+        border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-right: 10px;
 	
 }
 
