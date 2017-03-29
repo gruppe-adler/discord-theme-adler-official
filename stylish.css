@@ -5,6 +5,10 @@
 
 /* GLOBAL SETTINGS */
 
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+/* GLOBAL SETTINGS */
+
 body {
 	font-family: 'Lato', sans-serif !important;
 }
@@ -142,10 +146,16 @@ body {
 	color: #fff;
 }
 
+.message-group {
+	border: none !important;
+}
+
 .message-group .comment .markup {
-    margin-top: 8px;
+    
+    /*margin-top: 8px;*/
     color: #333;
     line-height: 1.4em;
+    
 }
 
 .channel-textarea-inner textarea {
@@ -364,5 +374,6 @@ border-color: #c0c0c0 !important;
 
 
 /* NAV RIGHT */
+
 
 }
