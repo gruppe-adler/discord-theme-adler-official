@@ -122,24 +122,22 @@ body {
 
 
 /* SCROLLBAR */
+.scroller-wrap .scroller::-webkit-scrollbar-thumb, 
+.chat.scroller-wrap .scroller::-webkit-scrollbar-track-piece  {	 
+    background-color: #d9d9d9 !important;
+}
+ 
 
- 
-.chat .scroller::-webkit-scrollbar-button, .chat .scroller::-webkit-scrollbar-track-piece, .friends-table .scroller::-webkit-scrollbar-button, .friends-table .scroller::-webkit-scrollbar-track-piece {
-  background-color: transparent!important;
-  border: transparent!important;
-}
- 
-.chat .scroller::-webkit-scrollbar-button, .friends-table .scroller::-webkit-scrollbar-button {
-  height: 0!important;
-}
- 
-.chat .scroller::-webkit-scrollbar-thumb, .friends-table .scroller::-webkit-scrollbar-thumb {
-  border-color: transparent!important;
-}
  
 
 /* MESSAGES */
+.reaction.reaction-me {
+	background-color: #007ab8;
+}
 
+.reaction.reaction-me .reaction-count {
+	color: #fff;
+}
 
 .message-group .comment .markup {
     margin-top: 8px;
@@ -161,6 +159,11 @@ body {
 
 .mention {
 	color: #007ab8; /* slack blue */
+    background-color: transparent !important;
+}
+
+.mention:hover {
+	color: #333; /* slack blue */
     background-color: transparent !important;
 }
 
